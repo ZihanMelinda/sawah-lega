@@ -1,3 +1,93 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e35af4cf4a72e544fe45695a4cd186ff3e1f1b85e244123b4139b953271b0ed4
-size 2632
+{
+  "profileId": "generic-button",
+  "fallbackProfileIds": [],
+  "layouts": {
+    "left": {
+      "selectComponentId": "face-button",
+      "components": {
+        "face-button": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 0
+          },
+          "rootNodeName": "face_button",
+          "visualResponses": {
+            "face_button_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "face_button_pressed_value",
+              "minNodeName": "face_button_pressed_min",
+              "maxNodeName": "face_button_pressed_max"
+            }
+          }
+        }
+      },
+      "gamepadMapping": "",
+      "rootNodeName": "generic-button-left",
+      "assetPath": "left.glb"
+    },
+    "right": {
+      "selectComponentId": "face-button",
+      "components": {
+        "face-button": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 0
+          },
+          "rootNodeName": "face_button",
+          "visualResponses": {
+            "face_button_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "face_button_pressed_value",
+              "minNodeName": "face_button_pressed_min",
+              "maxNodeName": "face_button_pressed_max"
+            }
+          }
+        }
+      },
+      "gamepadMapping": "",
+      "rootNodeName": "generic-button-right",
+      "assetPath": "right.glb"
+    },
+    "none": {
+      "selectComponentId": "face-button",
+      "components": {
+        "face-button": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 0
+          },
+          "rootNodeName": "face_button",
+          "visualResponses": {
+            "face_button_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "face_button_pressed_value",
+              "minNodeName": "face_button_pressed_min",
+              "maxNodeName": "face_button_pressed_max"
+            }
+          }
+        }
+      },
+      "gamepadMapping": "",
+      "rootNodeName": "generic-button-none",
+      "assetPath": "none.glb"
+    }
+  }
+}

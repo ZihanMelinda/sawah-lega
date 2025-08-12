@@ -1,3 +1,66 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:749bb0624eb032d1e726e87dad398e6729020f35d62d2e9b431d4202e4c656fc
-size 1942
+{
+  "profileId": "generic-hand",
+  "fallbackProfileIds": [
+    "generic-hand-select"
+  ],
+  "layouts": {
+    "left": {
+      "selectComponentId": "xr-standard-trigger",
+      "components": {
+        "xr-standard-trigger": {
+          "type": "trigger",
+          "gamepadIndices": {
+            "button": 0
+          },
+          "rootNodeName": "xr_standard_trigger",
+          "visualResponses": {
+            "xr_standard_trigger_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "xr_standard_trigger_pressed_value",
+              "minNodeName": "xr_standard_trigger_pressed_min",
+              "maxNodeName": "xr_standard_trigger_pressed_max"
+            }
+          }
+        }
+      },
+      "gamepadMapping": "xr-standard",
+      "rootNodeName": "generic-hand-left",
+      "assetPath": "left.glb"
+    },
+    "right": {
+      "selectComponentId": "xr-standard-trigger",
+      "components": {
+        "xr-standard-trigger": {
+          "type": "trigger",
+          "gamepadIndices": {
+            "button": 0
+          },
+          "rootNodeName": "xr_standard_trigger",
+          "visualResponses": {
+            "xr_standard_trigger_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "xr_standard_trigger_pressed_value",
+              "minNodeName": "xr_standard_trigger_pressed_min",
+              "maxNodeName": "xr_standard_trigger_pressed_max"
+            }
+          }
+        }
+      },
+      "gamepadMapping": "xr-standard",
+      "rootNodeName": "generic-hand-right",
+      "assetPath": "right.glb"
+    }
+  }
+}

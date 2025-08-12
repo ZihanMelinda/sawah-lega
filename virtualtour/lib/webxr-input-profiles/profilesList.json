@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eb2c3ed83b90126501bc199ab87010bae87854fd8d31f7aa4b604324f15407fd
-size 548
+{"generic-button": {"path": "generic-button/profile.json"}, "generic-hand": {"path": "generic-hand/profile.json"}, "pico-4": {"path": "pico-4/profile.json"}, "oculus-touch-v3": {"path": "oculus-touch-v3/profile.json"}, "oculus-touch-v2": {"path": "oculus-touch-v3/profile.json"}, "meta-quest-touch-plus": {"path": "meta-quest-touch-plus/profile.json"}, "meta-quest-touch-pro": {"path": "meta-quest-touch-plus/profile.json"}, "htc-vive-focus-3": {"path": "htc-vive-focus-3/profile.json"}, "generic-trigger": {"path": "generic-trigger/profile.json"}}
